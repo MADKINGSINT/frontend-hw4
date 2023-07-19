@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+body{
+    font-family: Gilroy;
+}
+.top{
+    display:flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 105px;
+
+}
+.topitem{
+    
+    justify-content: center;
+    
+    
+    width: 381px;
+    height: 291px;
+    padding: 45px;
+    
+}
+.topitem_type2{
+    justify-content: center;
+    width: 381px;
+    height: 291px;
+    padding: 45px;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+
+}
+.top__main_text{
+    padding-top: 25px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.top__text{
+    color:#666666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-top: 17px;
+}
+.top__button{
+    background-color: #fff;
+    padding-top: 25px;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 16.5px */ 
+}
+.bottom{
+    background-color: #FAFAFA;
+}
+
+.bottom__title{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    padding-top: 92px;
+    display: flex;
+    justify-content: center;
+}
+.bottom__text{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */ 
+    padding-top: 19px;
+    display: flex;
+    justify-content: center;
+}
+.bottom__items{
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.bottomitem{
+    
+    background-color: #fff;
+    width: 370px;
+    height: 549px;
+    flex-shrink: 0; 
+}
+.bottomitem_type2{
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10); 
+    width: 370px;
+    height: 549px;
+    flex-shrink: 0;
+}
+.bottomitem_title{
+    padding-top: 29px;
+    padding-left: 83px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    justify-content: center;
+}
+.bottomitem_text{
+    color: #AAA;
+    text-align: center; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */ 
+}
+.bottomitem_button{
+    margin-top: 39px;
+    margin-left: 100px;
+    border-radius: 50px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #F25822;
+    color: #fff;
+    flex-shrink: 0; 
+
+}
+
